@@ -1,0 +1,33 @@
+/*product list*/
+.product_list_container{
+    text-align: center;
+    margin-top: 1em;
+    padding: 3em;
+}
+
+.product_list_container h2{
+    font-size: 3rem;
+}
+
+.product_list{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;  
+    margin-top: 2em; 
+}
+
+.product_list_container button{
+    margin-top: 3em;
+    margin-left: 2em;
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #C8D8C0;
+    color: #3C5E39;
+    cursor: pointer;
+}
+
+.product_list_container button:hover{
+    background-color: #3C5E39;
+    color: #C8D8C0;
+}
+

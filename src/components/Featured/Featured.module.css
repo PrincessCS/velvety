@@ -1,0 +1,28 @@
+/*featured products*/
+.featured_products{
+    text-align: center;
+    border: 1px solid #C8D8C0;
+    border-bottom: none;
+    padding: 4em 0;
+}
+
+.featured_products h6{
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+.featured_products h2{
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.product_listing{
+    display: flex;
+    margin-top: 1em;
+    padding-top: 3em;
+}
+

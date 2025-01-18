@@ -1,0 +1,270 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Regenerates"
+            
+        },
+        {
+            "id": 2,
+            "name": "NOTORIOUS",
+            "price": 23,
+            "image": "notorious.png",
+            "rating": {
+                "image": "rating-5.0.png",
+                "rate": 5
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of NOTORIOUS skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Revitalizes"
+        },
+        {
+            "id": 3,
+            "name": "HOLOCENA",
+            "price": 20,
+            "image": "holocena.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCENA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Tones"
+        },
+        {
+            "id": 4,
+            "name": "CLASSWING",
+            "price": 20,
+            "image": "classwing.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CLASSWING skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Protects"
+        },
+        {
+            "id": 5,
+            "name": "HOLOCANE",
+            "price": 23,
+            "image": "holocena.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCENA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Tones"
+        },
+        {
+            "id": 6,
+            "name": "INAMORATA",
+            "price": 12,
+            "image": "inamorata.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of INAMORATA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Regenerates after UV exposure"
+        },
+        {
+            "id": 7,
+            "name": "LIGHTCOOL",
+            "price": 22.5,
+            "image": "lightcool.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of LIGHTCOOL skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Regenerates after UV exposure"
+        },
+        {
+            "id": 8,
+            "name": "BLOSSOM",
+            "price": 20,
+            "image": "classwing.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of LIGHTCOOL skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Anti-waste"
+        },
+        {
+            "id": 9,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Regenerates"
+        },
+        {
+            "id": 10,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Hydrates"
+        },
+        {
+            "id": 11,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Makeup Removal"
+        },
+        {
+            "id": 12,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Revitalizes"
+        },
+        {
+            "id": 13,
+            "name": "NOTORIOUS",
+            "price": 23,
+            "image": "notorious.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of NOTORIOUS skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Exfoliates"
+        },
+        {
+            "id": 14,
+            "name": "HOLOCENA",
+            "price": 20,
+            "image": "holocena.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCENA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category": "Antioxidant"
+        },
+        {
+            "id": 15,
+            "name": "CLASSWING",
+            "price": 20,
+            "image": "classwing.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CLASSWING skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Soothes"
+        },
+        {
+            "id": 16,
+            "name": "HOLOCANE",
+            "price": 23,
+            "image": "holocena.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCANE skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Anti-waste"
+        },
+        {
+            "id": 17,
+            "name": "INAMORATA",
+            "price": 12,
+            "image": "inamorata.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of INAMORATA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Regenerates after UV exposure"
+        },
+        {
+            "id": 18,
+            "name": "LIGHTCOOL",
+            "price": 22.5,
+            "image": "lightcool.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of LIGHTCOOL skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Hydrates"
+        },
+        {
+            "id": 19,
+            "name": "BLOSSOM",
+            "price": 20,
+            "image": "inamorata.png",
+            "rating": {
+                "image": "rating-4.5.png",
+                "rate": 4.5
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of BLOSSOM skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Exfoliates"
+        },
+        {
+            "id": 20,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Regulates"
+        },
+        {
+            "id": 21,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Purifies"
+        },
+        {
+            "id": 22,
+            "name": "CHICORI",
+            "price": 20,
+            "image": "chicori.png",
+            "rating": {
+                "image": "rating-4.0.png",
+                "rate": 4
+            },
+            "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
+            "category":"Tones"
+        }
+
+    ]
+}

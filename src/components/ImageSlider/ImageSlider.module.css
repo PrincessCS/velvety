@@ -1,0 +1,42 @@
+/*image slider*/
+.image_slider_styles {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .image_slider_styles img{
+    max-width: 100%;
+    height: 100%;
+    transform: rotate(-5deg);
+  }
+  
+ .image_slider_nav{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .prev_button, .next_button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+ }
+
+ .slide_dots{
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s;
+ }
+
+  
+ .slide_dots.active, .slide_dots:hover {
+    color: #3C5E39;
+  }
+
+
+  

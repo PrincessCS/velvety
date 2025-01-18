@@ -1,0 +1,57 @@
+/*footer*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+
+.subscribe_cta{
+    background-color:#899F87;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+    color: #F2F6EF;
+}
+
+.subscribe_cta div h2{
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-wrap: balance;
+}
+
+.subscribe_input{
+    display: flex;
+    align-items: center;
+}
+
+.subscribe_input input, .subscribe_input button{
+    padding: 15px 40px;
+    background-color: #F2F6EF;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.subscribe_input button{
+    padding: 11px 20px;
+    border-left: 1px solid #000;  
+}
+
+.footer_div{
+    border: 1px solid #C8D8C0;
+    padding: 4em;
+}
+
+.footer_div ul li{
+    list-style: none;
+    margin-top: 0.7em;
+}
+
+.footer_div h6{
+    margin: 0;
+    padding: 0;
+}
+
+.footer_div img{
+    margin-bottom: 2em;
+}

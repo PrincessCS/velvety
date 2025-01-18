@@ -1,0 +1,204 @@
+/*hero section*/
+.hero_section{
+    position: relative;
+}
+.hero, .ingredients_section{
+    display: flex;
+}
+.hero_left{
+    background:#899F87;
+    width: 100%;
+}
+.image_slider{
+   position: absolute;
+   left: 2%;
+   top: 10%;
+   width: 500px;
+   height: 700px;
+}
+.hero_right{
+    width: 100%;
+}
+.hero_right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+.hero_right div{
+    position: absolute;
+    top: 30%;
+    right: 18%;
+}
+.hero_right div h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    font-weight: lighter;
+    color: #fff;
+    font-weight: 500;
+}
+.hero_right div button{
+    padding: 15px 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 5em;
+    color: #213721;
+}
+.hero_right div button img{
+    width: 30px;
+}
+
+/*ingredients_section*/
+.ingredients_section{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ingredients_left{
+    width: 100%;
+    text-align: center;
+}
+.ingredients_left h2{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 3em;
+}
+.ingredients_right{
+    width: 100%;
+    background-color: #E4ECE0;
+    padding: 8em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.ingredients{
+    display: flex;
+    gap: 30px;
+    margin-left: 3em;
+}
+.ingredient_text h6{
+    font-size: 1.3rem;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*about section*/
+.about_us{
+    display: flex;
+    align-items: center;
+    padding: 3em 4em;
+    padding-bottom: 5em;
+}
+.about_headline, .about_description{
+    width: 50%;
+}
+.about_headline h6, .as_seen h6{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.about_headline h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.about_description p{
+    font-size: 1.2rem;
+}
+.separator{
+    border: 1px solid #C8D8C0;
+    width: 90%;
+    margin: 0 auto;
+}
+.as_seen{
+    padding: 4em;
+}
+.listing_company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.listing_company div img{
+    width: 100%;
+}
+.cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #899F87;
+    padding: 1.6em;
+}
+.cta h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #F2F6EF;
+    margin-left:1em ;
+}
+
+/*our service*/
+.our_service{
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    border: 1px solid #C8D8C0;
+}
+.service_image img{
+    width: 100%;
+}
+.service_content h6{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.service_content h2{
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+.service_content p{
+    margin-top: 1em;
+}
+
+.service_content .cta_btn{
+    margin-top: 2em;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #899F87;
+    color: #3C5E39;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.cta_btn img{
+    width: 40px;
+}
+
+/*cta section*/
+.cta_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 4em;
+    border-top: 1px solid #C8D8C0;
+}
+
+.cta_section button{
+    margin-top: 2em;
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid #3C5E39;
+}
+
+.cta_section div h6, .cta_section h3{
+    margin: 0;
+    padding: 0;
+}
+
+
+
