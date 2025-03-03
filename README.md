@@ -1,8 +1,8 @@
-# 🌿 Velvety - Eco-Friendly Skincare Website
+# Velvety - Eco-Friendly Skincare Website
 
 Welcome to the **Velvety** repository! This project is a modern e-commerce web application built with **Vite**, **React**, and **Redux Toolkit Query**, featuring a local database (`db.json`) for product storage. The website includes essential e-commerce functionalities such as filtering products, adding/removing items from the cart, and a checkout process with a dummy Stripe payment integration.
 
-## 🚀 Features
+## Features
 
 - **Home Page** – Showcases eco-friendly skincare products and highlights sustainable skincare benefits.
 - **Shop Page** – Displays a list of products with filtering options.
@@ -73,7 +73,7 @@ Welcome to the **Velvety** repository! This project is a modern e-commerce web a
 └── 📜 eslint.config.js
 ```
 
-## 💻 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 
@@ -113,7 +113,7 @@ Welcome to the **Velvety** repository! This project is a modern e-commerce web a
 4. **Review and update** the cart.
 5. **Proceed to checkout** and simulate a payment with Stripe.
 
-## 🔗 API Endpoints (Local JSON Server)
+##  API Endpoints (Local JSON Server)
 
 - **GET** `/products` – Fetch all products
 - **GET** `/products/:id` – Fetch a single product
@@ -122,13 +122,13 @@ Welcome to the **Velvety** repository! This project is a modern e-commerce web a
 
 > Note: These endpoints are accessible only when `json-server` is running locally.
 
-## ⚡ Future Improvements
+## Future Improvements
 
 - Implement real-time payment integration with Stripe.
 - Add user authentication and profile management.
 - Optimize performance and enhance UI/UX.
 
-## 📜 License
+## License
 
 This project is licensed under the **MIT License**.
 
