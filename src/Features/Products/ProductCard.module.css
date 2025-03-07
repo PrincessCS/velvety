@@ -62,4 +62,35 @@
     border: none;
 }
 
+.add_to_cart{
+    display: flex;
+}
+
+.add_to_cart input{
+    width: 20%;
+    text-align: center;
+}
+
+.add_to_cart button{
+    padding: 10px;
+    background-color: #C8D8C0;
+    border: 1px solid #3C5E39;
+}
+
+.add_to_cart button:hover{
+    background-color: #3C5E39;
+}
+
+/*media queries*/
+@media(max-width:1400px){
+    .product{
+        width: 400px;
+    }
+}
+
+@media(max-width:768px){
+    .product{
+        width: 100%;
+    }
+}
 

@@ -6,8 +6,8 @@ function Footer(){
         <>
         <footer>
         <div className={styles.subscribe_cta}>
-            <div>
-              <h2>Subscribe to get 10% off <br/> your first order</h2>
+            <div className={styles.subscribe}>
+              <h2>Subscribe to get 10% off your first order</h2>
             </div>
             <div className={styles.subscribe_input}>
               <input type="email" placeholder="Drop your email here"/>

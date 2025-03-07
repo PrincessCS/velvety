@@ -6,6 +6,7 @@
 }
 
 .product_list_container h2{
+    color: #C8D8C0;
     font-size: 3rem;
 }
 
@@ -13,10 +14,10 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;  
-    margin-top: 2em; 
+    margin-top: 4em; 
 }
 
-.product_list_container button{
+.more_less_btn{
     margin-top: 3em;
     margin-left: 2em;
     padding: 10px 40px;
@@ -29,5 +30,36 @@
 .product_list_container button:hover{
     background-color: #3C5E39;
     color: #C8D8C0;
+}
+
+@media(max-width:1400px){
+    .product_list_container{
+        padding: 1em;
+    }
+    .product_list{
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width:1200px){
+    .product_list{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 4em;
+    }
+}
+
+@media(max-width:992px){
+    .product_list{
+        padding: 0 1em;
+    }
+}
+
+@media(max-width:576px){
+    .product_list{
+        grid-template-columns: 1fr;
+    }
 }
 

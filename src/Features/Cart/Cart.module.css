@@ -1,0 +1,198 @@
+.cart_hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Make it cover the entire viewport */ 
+}
+
+.cart_hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; /* Ensure the image covers the full height */
+    object-fit: cover;
+    z-index: -1; /* Push it behind the text & header */
+}
+
+.cart_hero div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.cart_hero div h2 {
+    font-size: 3rem;
+    color: #fff; /* Ensure text is readable */
+}
+
+.cart_hero div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cart_hero div a:hover {
+    text-decoration: underline;
+}
+
+.empty_cart{
+    padding: 2em;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty_cart a{
+    color: #899F87;
+}
+
+.empty_cart a:hover{
+    color: #3C5E39;
+}
+
+.cart_table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+    background: white;
+}
+
+.cart_table th, .cart_table td {
+    padding: 0.8em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart_table th {
+    background: #f4f4f4;
+    font-weight: bold;
+}
+
+.quantity input{
+    width: 10%;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.update_quantity{
+    padding: 5px 8px;
+    background-color: #899F87;
+    border: 1px solid #3C5E39;
+}
+
+.update_quantity:hover{
+    background-color: #3C5E39;
+}
+
+.cart_table tr:hover {
+    background: #f9f9f9;
+}
+
+.product_img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.remove_btn {
+    padding: 6px 10px;
+    background-color: #899F87;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.remove_btn:hover {
+    background-color: #3C5E39;
+}
+
+.total {
+    margin-top: 1em;
+    padding: 2em;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.total h3{
+    font-size: 1.5rem;
+}
+
+.cart_total{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.1rem;
+    margin: 1em auto;
+}
+
+.cart_total div{
+    border: 1px solid #3C5E39;
+}
+
+.checkout_btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #3C5E39;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.checkout_btn:hover {
+    background-color: #899F87;
+    cursor: pointer;
+}
+
+/*media queries*/
+@media screen and (max-width: 576px) {
+    .cart_hero div {
+        width: 100%;
+    }
+
+    .cart_table, .cart_table thead, .cart_table tbody, .cart_table tr, .cart_table th, .cart_table td {
+        display: block;
+        width: 100%;
+    }
+
+    .cart_table thead {
+        display: none; 
+    }
+
+    .cart_table tr {
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .cart_table td {
+        text-align: left;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .cart_table td::before {
+        content: attr(data-label); /* Use data attributes to label rows */
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        color: #3C5E39;
+    }
+
+    .quantity input {
+        width: 50px;
+        text-align: center;
+    }
+}

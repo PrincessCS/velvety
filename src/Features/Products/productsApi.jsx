@@ -9,8 +9,11 @@ export const productsApi = createApi({
     }),
     getProductById: builder.query({
       query: () => 'db.products.json', 
-      transformResponse: (response, meta, arg) => {
-        return response.products.find((product) => product.id.toString() === arg);
+      transformResponse: (response, meta, id) => {
+        console.log("Received response:", response);
+        console.log("Searching for product with ID:", id);
+    
+        return response.products.find((product) => product.id.toString() === id) || null;
       },
     }),
 

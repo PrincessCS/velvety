@@ -1,4 +1,5 @@
 import React, {useRef} from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Home.module.css";
 import Header from "../../components/Header/Header";
 import ImageSlider from "../../components/ImageSlider/ImageSlider";
@@ -10,6 +11,7 @@ import Footer from "../../components/Footer/Footer";
 
 function Home() {
   const aboutRef = useRef();
+  const navigate = useNavigate();
 
   const slides = [
     {image: "/images/blossom.svg", title: "blossom"},
@@ -17,6 +19,10 @@ function Home() {
     {image: "/images/notorious-hero.svg", title: "notorious"},
     {image: "/images/chicori-hero.svg", title: "chicori"},
   ]
+
+  const goToShop = () =>{
+    navigate("/shop");
+  }
 
   return (
     <>
@@ -32,18 +38,31 @@ function Home() {
           <img src="/images/hero-plants.png" alt="green-leaves" />
           <div>
           <h1>
-            Let nature take <br /> care of your body <br /> and soul
+            Let nature take care of your body and soul
           </h1>
-          <button>Shop now <img src="/images/shop-arrow.png" alt="arrow-left" /></button>
+          <button onClick={goToShop}>Shop now <img src="/images/shop-arrow.png" alt="arrow-left" /></button>
           </div> 
         </div>
         </section>
       </section>
 
+      <section className={styles.hero_mobile}>
+        <Header aboutRef={aboutRef}/>
+        <div className={styles.hero_mobile_container}>
+          <div>
+            <h2>Let nature take care of your body and soul</h2>
+            <button>Shop now <img src="/images/shop-arrow.png" alt="arrow-left" /></button>
+          </div>
+          <div className={styles.hero_mobile_slides}>
+            <ImageSlider slides={slides} />
+          </div>
+        </div> 
+      </section>
+
       <section className={styles.ingredients_section}>
         <div className={styles.ingredients_left}>
           <h2>
-            Inspired by traditional <br /> knowledge and nature
+            Inspired by traditional knowledge and nature
           </h2>
           <img src="/images/ingredients.png" alt="ingredients-and-leaves" />
         </div>
@@ -57,7 +76,6 @@ function Home() {
               <h6>100% Organic</h6>
               <p>
                 We craft skincare using the most exquisite ingredients from{" "}
-                <br />
                 the plant, earth and mineral realms.
               </p>
             </div>
@@ -83,7 +101,7 @@ function Home() {
             <div className={styles.ingredient_text}>
               <h6>Easy to Use</h6>
               <p>
-                Packed with a unique design as well as usefull that can <br />
+                Packed with a unique design as well as usefull that can 
                 help you perform routine skin care.
               </p>
             </div>
@@ -97,7 +115,7 @@ function Home() {
         <div className={styles.about_us}>
           <div className={styles.about_headline}>
             <h6>About us</h6>
-            <h2>Velvety facial and <br/>
+            <h2>Velvety facial and
              skincare company</h2>
           </div>
 
@@ -149,9 +167,9 @@ function Home() {
         </div>
         <div className={styles.service_content}>
           <h6>Try Our Service</h6>
-          <h2>Your skin diagnosis in <br/> 3 minutes</h2>
+          <h2>Your skin diagnosis in 3 minutes</h2>
           <p>Say hello to a more radiant, healthier you with 
-            personalized <br/> skincare that's as unique as you are.
+            personalized skincare that's as unique as you are.
           </p>
           <button className={styles.cta_btn}>Start my diagnosis <img src="/images/shop-arrow.png" alt="arrow-left" /></button>
         </div>

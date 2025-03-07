@@ -23,10 +23,19 @@ function SelectedProduct(){
             <div className={styles.selected_product}>
               <ProductCard product={product} />
             </div>
+
+            <div className={styles.selected_product_description}>
+                <h2>{product.name}</h2>
+                <p>{product.description}</p>
+            </div>
         </div>
         <Footer />
+       
         </>
     );
+    
 }
+
+
 
 export default SelectedProduct;

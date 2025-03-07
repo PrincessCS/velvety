@@ -10,7 +10,9 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Regenerates"
+            "category": "Regenerates",
+            "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
+        
             
         },
         {
@@ -23,7 +25,8 @@
                 "rate": 5
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of NOTORIOUS skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Revitalizes"
+            "category": "Revitalizes",
+            "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 3,
@@ -35,7 +38,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCENA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Tones"
+            "category": "Tones",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 4,
@@ -47,7 +51,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CLASSWING skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Protects"
+            "category": "Protects",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 5,
@@ -59,7 +64,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCENA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Tones"
+            "category":"Tones",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 6,
@@ -71,7 +77,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of INAMORATA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Regenerates after UV exposure"
+            "category":"Regenerates after UV exposure",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 7,
@@ -83,7 +90,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of LIGHTCOOL skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Regenerates after UV exposure"
+            "category":"Regenerates after UV exposure",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 8,
@@ -95,7 +103,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of LIGHTCOOL skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Anti-waste"
+            "category": "Anti-waste",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 9,
@@ -107,7 +116,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Regenerates"
+            "category":"Regenerates",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 10,
@@ -119,7 +129,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Hydrates"
+            "category":"Hydrates",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 11,
@@ -131,7 +142,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Makeup Removal"
+            "category": "Makeup Removal",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 12,
@@ -143,7 +155,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Revitalizes"
+            "category":"Revitalizes",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 13,
@@ -155,7 +168,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of NOTORIOUS skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Exfoliates"
+            "category":"Exfoliates",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 14,
@@ -167,7 +181,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCENA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category": "Antioxidant"
+            "category": "Antioxidant",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 15,
@@ -179,7 +194,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CLASSWING skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Soothes"
+            "category":"Soothes",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 16,
@@ -191,7 +207,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of HOLOCANE skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Anti-waste"
+            "category":"Anti-waste",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 17,
@@ -203,7 +220,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of INAMORATA skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Regenerates after UV exposure"
+            "category":"Regenerates after UV exposure",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 18,
@@ -215,7 +233,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of LIGHTCOOL skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Hydrates"
+            "category":"Hydrates",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 19,
@@ -227,7 +246,8 @@
                 "rate": 4.5
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of BLOSSOM skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Exfoliates"
+            "category":"Exfoliates",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 20,
@@ -239,7 +259,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Regulates"
+            "category":"Regulates",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 21,
@@ -251,7 +272,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Purifies"
+            "category":"Purifies",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         },
         {
             "id": 22,
@@ -263,7 +285,8 @@
                 "rate": 4
             },
             "testimonial": "I've been feeling pretty stressed with my skin lately, so I picked up a set of CHICORI skincare. Oh my goodness!. It was AMAZING. My skin felt so soft and moisturized",
-            "category":"Tones"
+            "category":"Tones",
+             "description": "Infused with the power of nature, NOTORIOUS is a gentle yet effective cleanser that purifies and replenishes your skin. Formulated with antioxidant-rich Green Tea, moisture-boosting Aloe Vera, and calming Chamomile, it effortlessly lifts away impurities and makeup while maintaining your skin's natural balance. Enriched with nutrient-dense Jojoba Oil and a blend of soothing plant extracts, it nourishes and strengthens your skin barrier, leaving your complexion feeling soft, refreshed, and radiant. Treat your skin to the care it deserves—pure, botanical hydration in every wash!"
         }
 
     ]

@@ -29,7 +29,7 @@ function Shop(){
                   a big impact. through our membership, we 
                   will be supporting the skin cancer 
                   foundation's work which provides 
-                  the tools * education you need to prevent.</h6>
+                  the tools education you need to prevent.</h6>
                   <button type="button">Learn More</button>
               </div>
 

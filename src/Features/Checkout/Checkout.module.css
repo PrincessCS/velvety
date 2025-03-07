@@ -1,0 +1,149 @@
+.checkout_hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.checkout_hero img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover;
+    z-index: -1; 
+}
+
+.checkout_hero div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.checkout_hero div h2 {
+    font-size: 3rem;
+    color: #fff; /* Ensure text is readable */
+}
+
+.checkout_hero div a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.checkout_hero div a:hover {
+    text-decoration: underline;
+}
+
+
+.checkout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:50px;
+    padding: 2em;
+}
+
+.billing form{
+    margin-top: 2em;
+}
+
+.form_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.billing form label{
+    font-size: 0.8rem;
+}
+
+.billing form input, .billing form select, .billing form textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+
+.billing form select{
+    cursor: pointer;
+}
+
+.checkout_table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 3em;
+}
+
+.checkout_table th, .checkout_table td {
+    text-align: center;
+    padding: 0.8em;
+    border-bottom: 1px solid #3C5E39;
+}
+
+.checkout_table tr{
+    transition: 0.3s;
+}
+
+.checkout_table tr:hover{
+    cursor: pointer;
+    background-color: #C8D8C0;
+}
+
+.checkout_table th {
+    font-weight: bold;
+}
+
+.product_img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.pay_now_btn {
+    background-color: #899F87;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.pay_now_btn:hover {
+    background-color: #3C5E39;
+}
+
+.pay_now_btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+
+/*media queries*/
+@media(max-width:576px){
+    .checkout_hero div{
+        width: 100%;
+    }
+
+    .checkout{
+        grid-template-columns: 1fr;
+    }
+
+    .checkout_table {
+        width: 100%;
+    }
+}
+
+@media(max-width:480px){
+    .checkout_hero div{
+        padding: 0.5em;
+    }
+}

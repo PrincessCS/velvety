@@ -1,0 +1,39 @@
+.thank_you_page {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank_you_page img{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+}
+
+.thank_you_page h1 {
+    color: #3C5E39;
+    font-size: 2rem;
+}
+
+.thank_you_page p {
+    font-size: 1rem;
+    margin: 1.2em 0;
+}
+
+.go_home {
+    background-color:#899F87;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.go_home:hover {
+    background-color: #3C5E39;
+}

@@ -16,7 +16,7 @@ function Featured(){
         <>
         <section className={styles.featured_products}>
             <h6>Our featured products</h6>
-            <h2>Facial and skincare, natural and <br/> certified organic</h2>
+            <h2>Facial and skincare, natural and certified organic</h2>
             <div className={styles.product_listing}>
                 {featuredProducts.map((product) => (
                       <ProductCard key={product.id} product={product} />

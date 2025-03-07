@@ -1,10 +1,7 @@
 /*product testimonials*/
 .testimonial_container{
-    display: flex;
-    align-items: center;
     padding: 4em;
 }
-
 .product_testimonials{
     display: flex;
     justify-content: center;
@@ -65,3 +62,49 @@ h3{
   .slide_dots.active, .slide_dots:hover {
     color: #fff;
 }
+
+/*media queries*/
+@media(max-width:1400px){
+    .testimonial_container{
+        padding: 0 4em;
+    }
+}
+
+@media(max-width:992px){
+    .testimonial_container{
+        padding: 0 2em;
+    }
+}
+
+@media(max-width:768px){
+    .testimonial_container{
+        padding:0 2em;
+    }
+}
+
+@media(max-width:576px){
+    .testimonial_container{
+        padding: 15em 1em;
+        margin-top: 3em;
+    }
+
+   .product_testimonials{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+   }
+
+   .product_testimonial, .product_testimonial_image{
+        width: 100%;
+   }
+
+   .testimonial_slider_nav{
+       transform: rotate(90deg);
+       padding: 0;
+       margin: 0;
+   }
+
+   
+}
+

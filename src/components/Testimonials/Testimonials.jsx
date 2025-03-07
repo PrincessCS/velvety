@@ -53,10 +53,8 @@ function Testimonials() {
             <h3>{currentProduct.testimonial}</h3>
             <p>~ Customer Review</p>
           </div>
-        </section>
-      )}
 
-      <div className={styles.testimonial_slider_nav}>
+          <div className={styles.testimonial_slider_nav}>
         <button onClick={prevSlide} className={styles.prev_button}>
           <img src="/images/testimonial-left.png" alt="previous" />
         </button>
@@ -70,6 +68,8 @@ function Testimonials() {
           <img src="/images/testimonial-right.png" alt="next" />
         </button>
       </div>
+        </section>
+      )}
     </div>
   );
 }

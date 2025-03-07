@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useGetAllProductsQuery } from "../../Features/Products/productsApi";
 import styles from "./HomeProducts.module.css";
 import { useNavigate } from "react-router-dom";
@@ -34,13 +34,16 @@ function HomeProducts() {
     const [productCategory, setProductCategory] = useState("All needs");
     const [filteredProducts, setFilteredProducts] = useState(products.slice(3, 7));
 
-    const handleFilteredProducts = (category) => {
-        setProductCategory(category);
-        if (category === "All needs") {
+    useEffect(() => {
+        if (productCategory === "All needs") {
             setFilteredProducts(products.slice(3, 7));
         } else {
-            setFilteredProducts(products.filter((product) => product.category === category));
+            setFilteredProducts(products.filter((product) => product.category === productCategory));
         }
+    }, [products, productCategory]); // Runs when products or category changes
+
+    const handleFilteredProducts = (category) => {
+        setProductCategory(category);
     };
 
     const shopNow = () => {
@@ -57,10 +60,7 @@ function HomeProducts() {
                     {categories.map((category) => (
                         <button
                             key={category}
-                            className={productCategory === category
-                                    ? `${styles.category_button} ${styles.active}`
-                                    : styles.category_button
-                            }
+                            className={`${styles.category_button} ${productCategory === category ? styles.active : ""}`}
                             onClick={() => handleFilteredProducts(category)}
                         >
                             {category}

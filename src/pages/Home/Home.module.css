@@ -1,9 +1,60 @@
+
 /*hero section*/
 .hero_section{
     position: relative;
 }
 .hero, .ingredients_section{
     display: flex;
+}
+
+.hero_mobile{
+    background:url("/images/hero-plants.png");
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    padding-bottom: 10em;
+}
+
+.hero_mobile_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2em 3em;
+}
+
+.hero_mobile_container div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_mobile div h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.hero_mobile div button{
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 1em;
+    color: #213721;
+}
+
+.hero_mobile_slides{
+    margin-top: 4em;
+    width: 500px;
+    height: 500px;
 }
 .hero_left{
     background:#899F87;
@@ -27,17 +78,19 @@
 .hero_right div{
     position: absolute;
     top: 30%;
-    right: 18%;
+    left: 40%;
+    width: 50%;
 }
 .hero_right div h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: lighter;
     color: #fff;
-    font-weight: 500;
+    font-weight: 200;
 }
 .hero_right div button{
-    padding: 15px 55px;
+    padding: 20px 80px;
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     align-items: center;
     text-align: center;
@@ -66,7 +119,7 @@
 .ingredients_right{
     width: 100%;
     background-color: #E4ECE0;
-    padding: 8em 0;
+    padding: 8em 0.8em;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -139,12 +192,18 @@
 .our_service{
     display: flex;
     justify-content: space-around;
+    gap: 20px;
     padding: 4em;
     border: 1px solid #C8D8C0;
 }
 .service_image img{
     width: 100%;
 }
+
+.service_content{
+    width: 50%;
+}
+
 .service_content h6{
     font-size: 1.5rem;
     font-weight: 300;
@@ -162,11 +221,14 @@
 
 .service_content p{
     margin-top: 1em;
+    font-size: 1.5rem;
 }
 
 .service_content .cta_btn{
     margin-top: 2em;
-    padding: 10px 30px;
+    padding: 15px 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
     background-color: transparent;
     border: 1px solid #899F87;
     color: #3C5E39;
@@ -190,6 +252,7 @@
 
 .cta_section button{
     margin-top: 2em;
+    font-family: 'Montserrat', sans-serif;
     background-color: transparent;
     padding: 10px 30px;
     border: 1px solid #3C5E39;
@@ -198,6 +261,212 @@
 .cta_section div h6, .cta_section h3{
     margin: 0;
     padding: 0;
+}
+
+/*media queries*/
+@media(max-width:1400px){
+    
+    .hero_right div{
+        left: 35%;
+        top: 25%;
+        
+    }
+    .about_us{
+        padding: 3em 6em;
+    }
+
+    .listing_company{
+        gap: 20px;
+    }
+
+    .cta{
+        padding-right: 6em;
+    }
+
+    .listing_company{
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+@media(max-width:1200px){
+    .image_slider{
+        top: 20%;
+    }
+
+    .hero_right div{
+        left: 35%;
+        top: 25%;
+        
+    }
+
+    .hero_right div h1{
+        font-size: 3.5rem;
+    }
+    
+}
+
+@media(max-width:992px){
+    .hero_right div{
+        top: 20%;
+        left: 40%;
+    }
+
+    .hero_right div button{
+        margin-top: 2em;
+    }
+
+    .image_slider{
+        top: 5%;
+    }
+    .ingredients_section{
+        flex-direction: column;
+    }
+
+    .about_us{
+        padding: 3em 2em;
+    }
+
+    .cta_section{
+        padding: 4em 2em;
+    }
+
+}
+
+@media(max-width:768px){
+    .hero_section{
+        display: none;
+    }
+
+    .hero_mobile{
+        display: block;
+        
+    }
+
+    .about_us{
+        flex-direction: column;
+        justify-content: end;
+        padding: 2em;
+    }
+
+    .about_headline, .about_description{
+        width: 100%;
+    }
+
+    .ingredients{
+        flex-direction: column;
+        padding: 2em;
+
+    }
+
+    .ingredient_text h6{
+        font-size: 2.5rem;
+    }
+
+    .ingredient_text p{
+        font-size: 1.5rem;
+    }
+
+    .our_service{
+        padding: 4em 2em;
+    }
+
+    .cta_section{
+        padding: 1em;
+    }
+
+}
+
+@media(max-width:576px){
+    .hero_mobile_container div h2{
+        font-size: 2.5rem;
+    }
+
+    .hero_mobile_slides{
+        width: 500px;
+        height: 300px;
+    }
+
+    .ingredients_left img{
+        width: 80%;
+    }
+
+    .ingredients_right{
+        padding: 8em 0;
+    }
+
+    .listing_company{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .listing_company div img{
+        width: 100%;
+    }
+
+    .our_service{
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    .service_content{
+        width: 100%;
+    }
+
+    .cta_section{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media(max-width:480px){
+    .hero_mobile_container h2{
+        margin-top: 1.7em;
+    }
+
+    .hero_mobile_slides{
+        width: 400px;
+    }
+
+    .our_service{
+        padding: 1em;
+    }
+
+    .as_seen{
+        padding: 2em;
+    }
+
+    .cta{
+        padding: 1em;
+    }
+
+    .cta_section div{
+        width: 100%;
+    }
+
+    .cta_section div img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;   
+    }
+}
+
+@media(max-width:390px){
+
+    .hero_mobile{
+       height: 1000px;
+       object-fit: cover;
+    }
+    
+    .hero_mobile_container h2{
+        margin-top: 0;
+    }
+
+    .hero_mobile_slides{
+        margin-top: 8em;
+        width: 300px;
+     }
 }
 
 

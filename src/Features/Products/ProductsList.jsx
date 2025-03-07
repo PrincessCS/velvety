@@ -1,16 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styles from "./ProductList.module.css";
 import ProductCard from "./ProductCard";
 import { useGetAllProductsQuery } from "../../Features/Products/productsApi";
 
 function ProductList() {
     const { error, isLoading, data } = useGetAllProductsQuery();
+    const minProductsToDisplay = 8;
+    const [displayProducts, setDisplayProducts] = useState(minProductsToDisplay);
+
+    useEffect(()=> {
+        if(data?.products){
+            setDisplayProducts(minProductsToDisplay);
+        }
+    }, [data]);
 
     if (error) return <p>Error loading products</p>;
     if (isLoading) return <p>Loading products...</p>;
 
-    const [displayProducts, setDisplayProducts] = useState(8);
-    const minProductsToDisplay = 8;
 
     const handleDisplayMore = () => {
         setDisplayProducts((prevDisplayProducts) => prevDisplayProducts + 8);
@@ -31,10 +37,10 @@ function ProductList() {
                 ))}
             </div>
             {displayProducts < data.products.length && (
-                <button onClick={handleDisplayMore}>Load More</button>
+                <button onClick={handleDisplayMore} className={styles.more_less_btn}>Load More</button>
             )}
             {displayProducts > minProductsToDisplay && (
-                <button onClick={handleDisplayLess}>Show Less</button>
+                <button onClick={handleDisplayLess} className={styles.more_less_btn}>Show Less</button>
             )}
 
         </div>
