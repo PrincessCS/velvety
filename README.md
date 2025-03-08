@@ -1,6 +1,6 @@
 # Velvety - Eco-Friendly Skincare Website
 
-Welcome to the **Velvety** repository! This project is a modern e-commerce web application built with **Vite**, **React**, and **Redux Toolkit Query**, featuring a local database (`db.json`) for product storage. The website includes essential e-commerce functionalities such as filtering products, adding/removing items from the cart, and a checkout process with a dummy Stripe payment integration.
+**Velvety** is a modern e-commerce web application built with **Vite**, **React**, and **Redux Toolkit Query**, featuring a local database (`db.json`) for product storage. The website includes essential e-commerce functionalities such as filtering products, adding/removing items from the cart, and a checkout process with a dummy Stripe payment integration.
 
 ## Features
 
