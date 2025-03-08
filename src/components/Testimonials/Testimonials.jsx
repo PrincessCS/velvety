@@ -4,16 +4,15 @@ import styles from "./Testimonials.module.css";
 
 function Testimonials() {
   const { error, isLoading, data } = useGetAllProductsQuery();
+  const products = data?.products || [];
 
-  if (error) return <p>There was an error loading products</p>;
-  if (isLoading) return <p>Products are loading...</p>;
-
-  const products = data.products || [];
-  const testimonialProducts = products.slice(0, 4);
-
+  // Ensure testimonialProducts has a default empty array
+  const testimonialProducts = products.length > 0 ? products.slice(0, 4) : [];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
+    if (testimonialProducts.length === 0) return;
+
     const slideInterval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
         prevIndex === testimonialProducts.length - 1 ? 0 : prevIndex + 1
@@ -37,6 +36,10 @@ function Testimonials() {
     setCurrentIndex(slideIndex);
   };
 
+  if (error) return <p>There was an error loading products</p>;
+  if (isLoading) return <p>Products are loading...</p>;
+  if (testimonialProducts.length === 0) return <p>No testimonials available.</p>;
+
   const currentProduct = testimonialProducts[currentIndex];
 
   return (
@@ -44,7 +47,7 @@ function Testimonials() {
       {currentProduct && (
         <section className={styles.product_testimonials} key={currentProduct.id}>
           <div className={styles.product_testimonial_image}>
-            <img src={`/images/${currentProduct.image}`} alt={currentProduct.name}  />
+            <img src={`/images/${currentProduct.image}`} alt={currentProduct.name} />
           </div>
 
           <div className={styles.product_testimonial}>
@@ -55,19 +58,24 @@ function Testimonials() {
           </div>
 
           <div className={styles.testimonial_slider_nav}>
-        <button onClick={prevSlide} className={styles.prev_button}>
-          <img src="/images/testimonial-left.png" alt="previous" />
-        </button>
+            <button onClick={prevSlide} className={styles.prev_button}>
+              <img src="/images/testimonial-left.png" alt="previous" />
+            </button>
 
-        {testimonialProducts.map((_, slideIndex) => (
-          <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className={`${styles.slide_dots} ${
-              slideIndex === currentIndex ? styles.active : ""}`}>•</div>
-        ))}
+            {testimonialProducts.map((_, slideIndex) => (
+              <div
+                key={slideIndex}
+                onClick={() => goToSlide(slideIndex)}
+                className={`${styles.slide_dots} ${slideIndex === currentIndex ? styles.active : ""}`}
+              >
+                •
+              </div>
+            ))}
 
-        <button onClick={nextSlide} className={styles.next_button}>
-          <img src="/images/testimonial-right.png" alt="next" />
-        </button>
-      </div>
+            <button onClick={nextSlide} className={styles.next_button}>
+              <img src="/images/testimonial-right.png" alt="next" />
+            </button>
+          </div>
         </section>
       )}
     </div>
